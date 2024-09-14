@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 
 
-export default function settings() {
+export default function Settings() {
     const [accountType, setAccountType] = useState('');
     const [bankName, setBankName] = useState('');
     const [bankList, setBankList] = useState([]);
